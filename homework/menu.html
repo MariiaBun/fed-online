@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 360px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .menu-position {
+            text-align: center;
+        }
+
+        .position-img {
+            width: 74px;
+            height: 74px;
+            border-radius: 12px;
+            margin: 0 auto 10px auto; /* Центрируем и отступ */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .position-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .position-title {
+            color: #c4c4c4;
+        }
+
+        .menu-position:hover .position-title {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button>
+            <img src="style/heroicons-solid_menu-alt-2.png" alt="menu button">
+        </button>
+        <h1>Menu</h1>
+        <form action="">
+            <input type="text" placeholder="Search food here">
+        </form>
+        <div class="menu-items">
+            <div class="menu-position">
+                <div class="position-img">
+                    <img src="style/image 4 (2).png" alt="Food">
+                </div>
+                <h4 class="position-title">Food</h4>
+            </div>
+            <div class="menu-position">
+                <div class="position-img">
+                    <img src="style/Group 6.png" alt="Drinks">
+                </div>
+                <h4 class="position-title">Drinks</h4>
+            </div>
+            <div class="menu-position">
+                <div class="position-img">
+                    <img src="style/Group 5.png" alt="Dessert">
+                </div>
+                <h4 class="position-title">Dessert</h4>
+                <div class="food-list">
+    <h2>Burger</h2>
+    <div class="food-item">
+        <img src="style/1.png" alt="Big Mac">
+        <div class="food-info">
+            <h3>Big Mac</h3>
+            <p class="price">Rs 240</p>
+        </div>
+    </div>
+    <div class="food-item">
+        <img src="style/22.png" alt="KFC Double">
+        <div class="food-info">
+            <h3>KFC Double</h3>
+            <p class="price">Rs 252</p>
+        </div>
+    </div>
+    <div class="food-item">
+        <img src="style/33.png" alt="Fish Burger">
+        <div class="food-info">
+            <h3>Fish Burger</h3>
+            <p class="price">Rs 220</p>
+        </div>
+        
+    </div>
+</div>
+   </div> 
+ </div>
+    </div>
+    
+    
+</body>
+</html>
