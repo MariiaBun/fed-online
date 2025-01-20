@@ -35,8 +35,7 @@ button {
         border-radius: 12px;
         background-color: #efefef;
         margin-top: 29px;
-        padding: 18px;
-
+        padding: 18px;  }  
         .position-title
      {
             color: #c4c4c4;
@@ -52,9 +51,10 @@ button {
             display: inline-block;
             border: none;
             margin-right: 24px;
+          }
 
-            .menu-position:hover .position-img {
-                background-color: #eae2b7;
+        .menu-position:hover .position-img {
+  background-color: #eae2b7;
               }
               
               .menu-position:hover .position-title {
